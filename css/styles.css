@@ -52,6 +52,7 @@ body {
   width: 100%;
   animation: fadeIn 2.5s;
 }
+/* check the positioning and margin */
 .header-container {
   font-family: "Courier Prime", monospace;
   font-size: 3rem;
@@ -59,8 +60,9 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  gap: 5%;
   min-width: 100%;
+  gap: 5%;
+  z-index: 2;
   margin-top: 5%;
   z-index: 2;
 }
@@ -68,9 +70,27 @@ body {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
-  /* check the padding */
-  padding: 3rem;
 }
+.content{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  margin: 70% auto;
+  gap: 5%;
+}
+.tab{
+  background-color: white;
+  text-decoration: black;
+  font-family: "Courier Prime", monospace;
+  text-align: center;
+  font-size: 2rem;
+  min-width: 25%;
+  min-height: 30vh;
+}
+
+
 
 @keyframes fadeIn {
   from {
