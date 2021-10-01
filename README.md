@@ -5,3 +5,5 @@ This project aims to bring a different perspective on the random faces you see e
 By asking random people simple questions about their goals/dreams, and the struggles that might not be visible to our eyes.
 ## Want to submit your own question?
 Head to this [form](https://docs.google.com/forms/d/e/1FAIpQLSfgqkUxtfkX2qIWqZHOvBxBubeT9N0ztqzRRK8z0a9epZFWxg/viewform?usp=sf_link)
+
+The site is currently hosted [here](https://the-people-project.netlify.app/#the-people)
