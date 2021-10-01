@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=IBM+Plex+Mono:wght@200;300&family=Inconsolata:wght@300&family=PT+Mono&display=swap");
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.background-fade {
+  position: absolute;
+  margin: 0;
+  background-size: cover;
+  min-height: 200%;
+  width: 100%;
+  animation: colorSwitch 10s ease-in;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+.title {
+  position: sticky;
+  /* check margin and why is it changing in animation */
+  margin-top: 8%;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  font-family: "Courier Prime", monospace;
+  animation: position 2.5s, titleSwitch 10s ease-in-out;
+}
+.title a {
+  text-decoration: none;
+  color: black;
+  animation: position 2.5s, titleSwitch 10s ease-in-out;
+}
+.section {
+  background-color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  margin: 49.4% auto;
+  min-height: 50rem;
+  width: 100%;
+  animation: fadeIn 2.5s;
+}
+.header-container {
+  font-family: "Courier Prime", monospace;
+  font-size: 3rem;
+  position: absolute;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 50%;
+  min-width: 100%;
+  margin-top: 5%;
+  z-index: 2;
+}
+.header-container a {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  /* check the padding */
+  padding: 3rem;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes colorSwitch {
+  0% {
+    background-color: black;
+    opacity: 100%;
+  }
+  25% {
+    background-color: black;
+    opacity: 100%;
+  }
+  30% {
+    background-color: transparent;
+    opacity: 0%;
+  }
+}
+/* animation ain't working so smoothly */
+@keyframes position {
+  0% {
+    transform: translateY(-20%);
+    opacity: 0%;
+  }
+  90% {
+    transform: translateY(20%);
+  }
+}
+
+@keyframes titleSwitch {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  30% {
+    color: black;
+  }
+}
