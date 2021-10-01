@@ -64,14 +64,13 @@ body {
   gap: 5%;
   z-index: 2;
   margin-top: 5%;
-  z-index: 2;
 }
 .header-container a {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
 }
-.content{
+.content {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -80,7 +79,7 @@ body {
   margin: 70% auto;
   gap: 5%;
 }
-.tab{
+.tab {
   background-color: white;
   text-decoration: black;
   font-family: "Courier Prime", monospace;
@@ -89,8 +88,6 @@ body {
   min-width: 25%;
   min-height: 30vh;
 }
-
-
 
 @keyframes fadeIn {
   from {
@@ -114,17 +111,13 @@ body {
     opacity: 0%;
   }
 }
-/* animation ain't working so smoothly */
 @keyframes position {
   0% {
     transform: translateY(100%);
     opacity: 0%;
   }
-  80%{
+  80% {
     transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
 
