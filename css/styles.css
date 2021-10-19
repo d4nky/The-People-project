@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=IBM+Plex+Mono:wght@200;300&family=Inconsolata:wght@300&family=PT+Mono&display=swap");
+
 html {
   font-family: "Courier Prime", monospace;
 }
@@ -9,44 +10,66 @@ html {
   margin: 0;
   padding: 0;
 }
-body {
-  background: black;
-}
-.header-container {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  height: 13vh;
-  width: 100%;
-  background-color: white;
-  font-size: 1em;
-}
-.menu-btn-container {
-}
+@media (max-width: 725px){
 
-@media (min-width: 450px) {
   body {
     background: white;
   }
-  header a{
-    color: black;
-  }
+  .logo-desktop{
+      display: none;
+    }
   .header-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 5%;
-    width: 100%;
-    background-color: white;
-    font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 5%;
+      width: 100%;
+      background-color: white;
+      font-size: 1.5em;
   }
-  .header-left{
+  .menu-button{
     margin-right: 10%;
   }
-  .header-right{
+  .header-center{
     margin-left: 10%;
   }
-  .button{
+  .header-left{
     display: none;
   }
+  .header-right{
+    display: none;
+  }
+  
 }
+  @media (min-width: 725px) {
+    body {
+      background: white;
+    }
+    header a{
+      color: black;
+    }
+    .logo-mobile{
+      display: none;
+    }
+    .header-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 5%;
+      width: 100%;
+      background-color: white;
+      font-size: 1.5em;
+    }
+    .header-left{
+      margin-right: 10%;
+    }
+    .header-right{
+      margin-left: 10%;
+    }
+    .button{
+      display: none;
+    }
+  }
+  
