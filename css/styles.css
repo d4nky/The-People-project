@@ -1,152 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=IBM+Plex+Mono:wght@200;300&family=Inconsolata:wght@300&family=PT+Mono&display=swap");
 html {
-  box-sizing: border-box;
   font-family: "Courier Prime", monospace;
 }
 * {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: 0;
   margin: 0;
   padding: 0;
 }
-
-.video{
-  top: 0;
-  position: absolute;
-  z-index: -10;
+body {
+  background: black;
 }
-.header-container{
+.header-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 5%;
-}
-.header-container a{
-  text-decoration: none;
-  color: black;
-}
-.content{
-  color: white;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 50%;
+  height: 13vh;
+  width: 100%;
+  background-color: white;
+  font-size: 1em;
+}
+.menu-btn-container {
 }
 
-
-/* Animations */
-@keyframes fadeIn {
-  from {
-    transform: translateY(50%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-@keyframes colorSwitch {
-  0% {
-    background-color: black;
-    opacity: 100%;
-  }
-  25% {
-    background-color: black;
-    opacity: 100%;
-  }
-  30% {
-    background-color: transparent;
-    opacity: 0%;
-  }
-}
-/* Find another way to make it come from the middle of the screen */
-@keyframes position {
-  0% {
-    transform: translateY(-50%);
-    opacity: 0%;
-  }
-  80% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes titleSwitch {
-  0% {
-    color: white;
-  }
-  25% {
-    color: white;
-  }
-  30% {
-    color: black;
-  }
-}
-@keyframes contentPositioning {
-  0% {
-    transform: translateY(-200%);
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
-/* For desktop */
 @media (min-width: 450px) {
-  .background-fade {
-    position: absolute;
-    top: 0;
-    background-size: cover;
-    height: 200%;
-    width: 100%;
-    animation: colorSwitch 10s ease-in;
+  body {
+    background: white;
   }
-  .container {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  .video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-  }
-  #title {
-    font-size: 4.5rem;
-    font-family: "Courier Prime", monospace;
-    animation: position 2.5s, titleSwitch 10s ease-in-out;
-    text-decoration: none;
+  header a{
     color: black;
-    animation: position 2.5s, titleSwitch 10s ease-in-out;
   }
-  .section {
-    background-color: white;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 0;
-    margin: 49.4% auto;
-    min-height: 50rem;
-    width: 100%;
-    animation: fadeIn 2.5s;
-  }
-  /* check the positioning and margin */
   .header-container {
-    font-family: "Courier Prime", monospace;
-    font-size: 3rem;
     display: flex;
-    align-content: center;
-    justify-content: center;
-    gap: 5%;
-    z-index: 2;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 5%;
+    width: 100%;
+    background-color: white;
+    font-size: 1.5em;
   }
-  .header-container a {
-    text-decoration: none;
-    color: black;
-    box-sizing: border-box;
+  .header-left{
+    margin-right: 10%;
+  }
+  .header-right{
+    margin-left: 10%;
+  }
+  .button{
+    display: none;
   }
 }

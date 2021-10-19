@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=IBM+Plex+Mono:wght@200;300&family=Inconsolata:wght@300&family=PT+Mono&display=swap");
+html {
+  box-sizing: border-box;
+  font-family: "Courier Prime", monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: white;
+}
