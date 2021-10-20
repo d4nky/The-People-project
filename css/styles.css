@@ -10,7 +10,7 @@ html {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 725px) {
+@media (max-width: 790px) {
   body {
     position: relative;
     background: white;
@@ -21,14 +21,14 @@ html {
   .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 5%;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     font-size: 1.5em;
   }
   .menu-button {
-    margin-right: 10%;
+    margin-left: 10%;
   }
   .header-center {
     margin-left: 10%;
@@ -44,8 +44,23 @@ html {
     grid-template-columns: auto auto;
     grid-column-gap: 5%;
     justify-content: space-between;
-    margin: 10%;
+    margin: 10% 20% 0 20%;
     font-size: 1.5vw;
+  }
+  .section-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-self: center;
+    justify-content: center;
+    margin: 5% 16% 0px 16%;
+  }
+  .video {
+    color: white;
+    text-align: center;
+    margin: 5%;
+    padding: 4vh 10vw;
+    background: black;
+    font-size: 3vw;
   }
   #right-side-1 {
     margin-top: 100%;
