@@ -12,7 +12,6 @@ html {
 }
 @media (max-width: 790px) {
   body {
-    position: relative;
     background: white;
   }
   .logo-desktop {
@@ -24,7 +23,6 @@ html {
     justify-content: center;
     margin-top: 5%;
     width: 100vw;
-    background-color: white;
     font-size: 1.5em;
   }
   .menu-button {
@@ -53,6 +51,9 @@ html {
   }
   .right-content {
     margin: 10% 10% 10% 50%;
+  }
+  .footer-container {
+    display: none;
   }
 }
 @media (min-width: 725px) {
@@ -101,7 +102,52 @@ html {
     margin: 10% 10% 10% 50%;
   }
   .footer-container {
-    background: black;
+    height: 30vh;
     width: 100vw;
+  }
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .mid {
+    gap: 5%;
+    margin: 5% 0% 5% 0%;
+  }
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
   }
 }
