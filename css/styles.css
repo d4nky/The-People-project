@@ -39,36 +39,20 @@ html {
   .header-right {
     display: none;
   }
-  .section-description {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 5%;
-    justify-content: space-between;
-    margin: 10% 20% 0 20%;
-    font-size: 1.5vw;
-  }
   .section-container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-rows: auto auto;
     align-self: center;
-    justify-content: center;
-    margin: 5% 16% 0px 16%;
+    grid-column-gap: 5%;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    margin-top: 15%;
   }
-  .video {
-    color: white;
-    text-align: center;
-    margin: 5%;
-    padding: 4vh 10vw;
-    background: black;
-    font-size: 3vw;
+  .left-content {
+    margin: 10% 50% 10% 10%;
   }
-  #right-side-1 {
-    margin-top: 100%;
-    padding-bottom: 50%;
-  }
-  #right-side-2 {
-    padding-top: 100%;
-    padding-bottom: 50%;
+  .right-content {
+    margin: 10% 10% 10% 50%;
   }
 }
 @media (min-width: 725px) {
@@ -101,20 +85,23 @@ html {
   .button {
     display: none;
   }
-  .section-description {
+  .section-container {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 5%;
+    grid-template-rows: auto auto;
+    align-self: center;
     justify-content: space-between;
-    margin: 15%;
-    font-size: 2vh;
+    font-size: 1rem;
+    margin-top: 15%;
   }
-  #right-side-1 {
-    margin-top: 100%;
-    padding-bottom: 50%;
+
+  .left-content {
+    margin: 10% 50% 10% 10%;
   }
-  #right-side-2 {
-    padding-top: 100%;
-    padding-bottom: 50%;
+  .right-content {
+    margin: 10% 10% 10% 50%;
+  }
+  .footer-container {
+    background: black;
+    width: 100vw;
   }
 }
