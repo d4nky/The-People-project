@@ -45,7 +45,7 @@ html {
     grid-column-gap: 5%;
     justify-content: space-between;
     margin: 10%;
-    font-size: 2vh;
+    font-size: 1.5vw;
   }
   #right-side-1 {
     margin-top: 100%;
