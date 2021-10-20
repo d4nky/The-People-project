@@ -12,6 +12,7 @@ html {
 }
 @media (max-width: 725px) {
   body {
+    position: relative;
     background: white;
   }
   .logo-desktop {
@@ -21,7 +22,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     margin-top: 5%;
     width: 100%;
     background-color: white;
@@ -67,6 +67,7 @@ html {
     display: none;
   }
   .header-container {
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
