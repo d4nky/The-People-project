@@ -67,11 +67,9 @@ html {
     display: none;
   }
   .header-container {
-    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     margin-top: 5%;
     width: 100%;
     background-color: white;
@@ -102,6 +100,7 @@ html {
     margin: 10% 10% 10% 50%;
   }
   .footer-container {
+    border-top: 2px solid black;
     height: 30vh;
     width: 100vw;
   }
@@ -119,7 +118,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 2%;
   }
   .mid {
     gap: 5%;
