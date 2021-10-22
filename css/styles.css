@@ -56,7 +56,7 @@ html {
     justify-content: center;
     text-align: center;
     right: -500px;
-    transition: ease-out 0.2s;
+    transition: ease 0.4s;
   }
   .section-container {
     display: grid;
