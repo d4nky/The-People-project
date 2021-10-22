@@ -41,6 +41,23 @@ html {
   .header-right {
     display: none;
   }
+  .dropdown-menu a{
+    color: white;
+  }
+  .dropdown-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    right: -500px;
+    transition: ease-out 0.2s;
+  }
   .section-container {
     display: grid;
     grid-template-rows: auto auto;
@@ -68,6 +85,9 @@ html {
     color: black;
   }
   .logo-mobile {
+    display: none;
+  }
+  .dropdown-menu{
     display: none;
   }
   .header-container {
@@ -157,5 +177,23 @@ html {
   }
   :placeholder-shown {
     font-family: "Courier Prime", Courier, monospace;
+  }
+  #github-logo {
+    background-image: url("/materials/images/github-icon-32px.png");
+  }
+  #ytb-logo {
+    background-image: url("/materials/images/ytb-icon-32px.png");
+  }
+  #fb-logo {
+    background-image: url("/materials/images/fb-icon-32px.png");
+  }
+  #github-logo:hover {
+    background-image: url("/materials/images/github-icon-32px_white.png");
+  }
+  #ytb-logo:hover {
+    background-image: url("/materials/images/ytb-icon-32px_white.png");
+  }
+  #fb-logo:hover {
+    background-image: url("/materials/images/fb-icon-32px_white.png");
   }
 }
