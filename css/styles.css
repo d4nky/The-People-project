@@ -41,7 +41,7 @@ html {
   .header-right {
     display: none;
   }
-  .dropdown-menu a{
+  .dropdown-menu a {
     color: white;
   }
   .dropdown-menu {
@@ -56,7 +56,7 @@ html {
     justify-content: center;
     text-align: center;
     right: -500px;
-    transition: ease 0.4s;
+    transition: all ease 0.4s;
   }
   .section-container {
     display: grid;
@@ -87,7 +87,7 @@ html {
   .logo-mobile {
     display: none;
   }
-  .dropdown-menu{
+  .dropdown-menu {
     display: none;
   }
   .header-container {
