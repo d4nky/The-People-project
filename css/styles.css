@@ -11,56 +11,567 @@ html {
   margin: 0;
   padding: 0;
 }
-@media (max-width: 725px) {
-  body {
-    background: white;
-  }
-  .logo-desktop {
+body{
+  background: white;
+}
+
+
+@media (max-width: 574px){
+  .dropdown-menu {
     display: none;
   }
-  .header-container {
-    border-bottom: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    padding-bottom: 5%;
-    width: 100vw;
-    font-size: 1.5em;
-  }
-  .menu-button {
-    margin-left: 10%;
-  }
-  .header-center {
-    font-size: 2rem;
-    margin-left: 10%;
-  }
-  .header-left {
-    display: none;
-  }
+
   .header-right {
     display: none;
   }
-  .section-container {
-    display: grid;
-    grid-template-rows: auto auto;
-    align-self: center;
-    grid-column-gap: 5%;
-    justify-content: space-between;
-    font-size: 1.5vw;
-    margin-top: 15%;
+
+  .header-left {
+    display: none;
   }
+
+  .header-container {
+    width: 100%;
+    border-bottom: solid 2px black;
+    padding: 24px 29px 24px 29px;
+  }
+
+  .header-wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  .menu-button {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 574px){
+
+  .section-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.6rem;
+  }
+  .section-wrapper{
+    max-width: 250px;
+  }
+  .left-content {
+    margin: 7rem 0 7rem 0;
+  }
+
+  .right-content {
+    margin: 7rem 0 7rem 0;
+  }
+
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 5%;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
+  }
+}
+
+
+
+
+@media (min-width: 574px) {
+  .dropdown-menu {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  .header-container {
+    width: 100%;
+    border-bottom: solid 2px black;
+    padding: 24px 29px 24px 29px;
+  }
+
+  .header-wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 574px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  .menu-button {
+    margin-top: 8px;
+  }
+} 
+@media (min-width: 574px) {
+  .section-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+
+  .section-wrapper {
+    max-width: 574px;
+  }
+
+  .left-content {
+    margin: 7rem 0 7rem 0;
+  }
+
+  .right-content {
+    margin: 7rem 0 7rem 0;
+  }
+
+@media (min-width: 574px) {
+  .dropdown-menu {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  .header-container {
+    width: 100%;
+    border-bottom: solid 2px black;
+    padding: 24px 29px 24px 29px;
+  }
+
+  .header-wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 574px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  .menu-button {
+    margin-top: 8px;
+  }
+}
+}
+
+
+
+
+@media (min-width: 768px) {
+  .dropdown-menu {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  .header-container {
+    width: 100%;
+    border-bottom: solid 2px black;
+    padding: 24px 29px 24px 29px;
+  }
+
+  .header-wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 768px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  .menu-button {
+    margin-top: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .section-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  .section-wrapper {
+    max-width: 700px;
+  }
+
+  .left-content {
+    margin: 7rem 0 7rem 0;
+  }
+
+  .right-content {
+    margin: 7rem 0 7rem 0;
+  }
+
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 5%;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
+  }
+}
+
+@media (min-width: 999px) {
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  .header-right {
+    display: inline;
+  }
+  .header-left{
+    display: inline;
+  }
+
+  .header-center {
+    font-size: 3rem;
+  }
+
+  .header-container {
+    width: 100%;
+    border-bottom: solid 2px black;
+    padding: 60px 29px 60px 29px;
+  }
+
+  .header-wrapper {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 999px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  .menu-button {
+    display: none;
+  }
+}
+@media (min-width: 999px) {
+  .section-container {
+    font-size: 1rem;
+  }
+  
+  .section-wrapper {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    max-width: 950px;
+  }
+
   .left-content {
     margin: 10% 50% 10% 10%;
   }
   .right-content {
     margin: 10% 10% 10% 50%;
   }
+
   .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 5%;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
+  }
+}
+
+@media (min-width: 1255px) {
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  .header-right {
+    display: inline;
+  }
+
+  .header-left {
+    display: inline;
+  }
+
+  .header-center {
+    font-size: 3rem;
+  }
+
+  .header-container {
+    width: 100%;
+    border-bottom: solid 2px black;
+    padding: 60px 29px 60px 29px;
+  }
+
+  .header-wrapper {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1150px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  .menu-button {
     display: none;
   }
 }
-@media (min-width: 725px) {
+@media (min-width: 1255px) {
+  .section-container {
+    display: flex;
+    font-size: 1rem;
+    margin-top: 7%;
+  }
+
+  .section-wrapper {
+    max-width: 85%;
+  }
+
+  .left-content {
+    margin: 10% 50% 10% 10%;
+  }
+
+  .right-content {
+    margin: 10% 10% 10% 50%;
+  }
+
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 5%;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
+  }
+}
+
+
+
+@media (min-width: 2500px) {
   body {
     background: white;
   }
@@ -68,6 +579,9 @@ html {
     color: black;
   }
   .logo-mobile {
+    display: none;
+  }
+  .dropdown-menu {
     display: none;
   }
   .header-container {
@@ -81,6 +595,7 @@ html {
     background-color: white;
     font-size: 1.5em;
   }
+
   .header-center {
     font-size: 3rem;
   }
@@ -157,5 +672,23 @@ html {
   }
   :placeholder-shown {
     font-family: "Courier Prime", Courier, monospace;
+  }
+  #github-logo {
+    background-image: url("/materials/images/github-icon-32px.png");
+  }
+  #ytb-logo {
+    background-image: url("/materials/images/ytb-icon-32px.png");
+  }
+  #fb-logo {
+    background-image: url("/materials/images/fb-icon-32px.png");
+  }
+  #github-logo:hover {
+    background-image: url("/materials/images/github-icon-32px_white.png");
+  }
+  #ytb-logo:hover {
+    background-image: url("/materials/images/ytb-icon-32px_white.png");
+  }
+  #fb-logo:hover {
+    background-image: url("/materials/images/fb-icon-32px_white.png");
   }
 }
