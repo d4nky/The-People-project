@@ -51,79 +51,80 @@ html {
     margin-top: 8px;
   }
 
-    .footer-container {
-      border-top: 2px solid black;
-      height: 30vh;
-      width: 100vw;
-    }
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
 
-    .top-footer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .mid-footer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .footer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 2%;
-    }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
 
-    .mid {
-      gap: 5%;
-      margin: 5% 0% 5% 0%;
-    }
+  .mid {
+    gap: 7rem;
+    margin: 5% 0% 5% 0%;
+  }
 
-    .bot {
-      font-family: "Courier Prime", Courier, monospace;
-      padding-bottom: 5%;
-    }
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
 
-    #input {
-      width: 20rem;
-      height: 2rem;
-      border: 2px solid black;
-    }
+  #input {
+    width: 13rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
 
-    #submit-btn {
-      font-family: "Courier Prime", Courier, monospace;
-      color: white;
-      border: none;
-      background: black;
-      width: 5rem;
-      height: 2rem;
-    }
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
 
-    #submit-btn:hover {
-      color: black;
-      background: white;
-      border: 2px solid black;
-    }
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
 
-    :placeholder-shown {
-      font-family: "Courier Prime", Courier, monospace;
-    }
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
+  }
     .video {
       color: white;
       text-align: center;
       margin: 5%;
-      padding: 4vh 10vw;
+      padding: 50px 100px;
       background: black;
-      font-size: 3vw;
+      font-size: .8rem;
     }
     .section-container {
+      text-align: center;
       display: grid;
       grid-template-columns: auto;
       align-self: center;
       justify-content: center;
-      margin: 5% 16% 0px 16%;
+      margin: 5% 16% 5% 16%;
     }
 }
 
@@ -196,16 +197,77 @@ html {
     color: white;
     text-align: center;
     margin: 5%;
-    padding: 4vh 10vw;
+    padding: 50px 125px;
     background: black;
-    font-size: 3vw;
+    font-size: .8rem;
   }
+
   .section-container {
+    text-align: center;
     display: grid;
     grid-template-columns: auto;
     align-self: center;
     justify-content: center;
-    margin: 5% 16% 0px 16%;
+    margin: 5% 16% 5% 16%;
+  }
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 7rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
   }
 }
 
@@ -272,7 +334,7 @@ html {
     }
 
     .mid {
-      gap: 5%;
+      gap: 7rem;
       margin: 5% 0% 5% 0%;
     }
 
@@ -315,7 +377,7 @@ html {
     }
     .section-container {
       display: grid;
-      grid-template-columns: auto;
+      grid-template-columns: auto auto;
       align-self: center;
       justify-content: center;
       margin: 5% 16% 5% 16%;
@@ -384,7 +446,7 @@ html {
     }
 
     .mid {
-      gap: 5%;
+      gap: 7rem;
       margin: 5% 0% 5% 0%;
     }
 
@@ -420,8 +482,7 @@ html {
   .video {
     color: white;
     text-align: center;
-    margin: 5%;
-    padding: 4vh 10vw;
+    padding: 50px 200px;
     background: black;
     font-size: 3vw;
   }

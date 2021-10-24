@@ -47,6 +47,65 @@ body{
   .menu-button {
     margin-top: 8px;
   }
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 7rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
+  }
 }
 @media (max-width: 574px){
 
@@ -93,7 +152,7 @@ body{
   }
 
   .mid {
-    gap: 5%;
+    gap: 7rem;
     margin: 5% 0% 5% 0%;
   }
 
@@ -163,6 +222,65 @@ body{
   .menu-button {
     margin-top: 8px;
   }
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 7rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
+  }
 } 
 @media (min-width: 574px) {
   .section-container {
@@ -215,6 +333,65 @@ body{
 
   .menu-button {
     margin-top: 8px;
+  }
+  .footer-container {
+    border-top: 2px solid black;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .mid {
+    gap: 7rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .bot {
+    font-family: "Courier Prime", Courier, monospace;
+    padding-bottom: 5%;
+  }
+
+  #input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid black;
+  }
+
+  #submit-btn {
+    font-family: "Courier Prime", Courier, monospace;
+    color: white;
+    border: none;
+    background: black;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  #submit-btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+  }
+
+  :placeholder-shown {
+    font-family: "Courier Prime", Courier, monospace;
   }
 }
 }
@@ -301,7 +478,7 @@ body{
   }
 
   .mid {
-    gap: 5%;
+    gap: 7rem;
     margin: 5% 0% 5% 0%;
   }
 
@@ -417,7 +594,7 @@ body{
   }
 
   .mid {
-    gap: 5%;
+    gap: 7rem;
     margin: 5% 0% 5% 0%;
   }
 
@@ -535,7 +712,7 @@ body{
   }
 
   .mid {
-    gap: 5%;
+    gap: 7rem;
     margin: 5% 0% 5% 0%;
   }
 
@@ -566,129 +743,5 @@ body{
 
   :placeholder-shown {
     font-family: "Courier Prime", Courier, monospace;
-  }
-}
-
-
-
-@media (min-width: 2500px) {
-  body {
-    background: white;
-  }
-  header a {
-    color: black;
-  }
-  .logo-mobile {
-    display: none;
-  }
-  .dropdown-menu {
-    display: none;
-  }
-  .header-container {
-    border-bottom: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4%;
-    padding-bottom: 4%;
-    width: 100%;
-    background-color: white;
-    font-size: 1.5em;
-  }
-
-  .header-center {
-    font-size: 3rem;
-  }
-  .header-left {
-    margin-right: 10%;
-  }
-  .header-right {
-    margin-left: 10%;
-  }
-  .button {
-    display: none;
-  }
-  .section-container {
-    display: grid;
-    grid-template-rows: auto auto;
-    align-self: center;
-    justify-content: space-between;
-    font-size: 1rem;
-    margin-top: 7%;
-  }
-
-  .left-content {
-    margin: 10% 50% 10% 10%;
-  }
-  .right-content {
-    margin: 10% 10% 10% 50%;
-  }
-  .footer-container {
-    border-top: 2px solid black;
-    height: 30vh;
-    width: 100vw;
-  }
-  .top-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .mid-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2%;
-  }
-  .mid {
-    gap: 5%;
-    margin: 5% 0% 5% 0%;
-  }
-  .bot {
-    font-family: "Courier Prime", Courier, monospace;
-    padding-bottom: 5%;
-  }
-  #input {
-    width: 20rem;
-    height: 2rem;
-    border: 2px solid black;
-  }
-  #submit-btn {
-    font-family: "Courier Prime", Courier, monospace;
-    color: white;
-    border: none;
-    background: black;
-    width: 5rem;
-    height: 2rem;
-  }
-  #submit-btn:hover {
-    color: black;
-    background: white;
-    border: 2px solid black;
-  }
-  :placeholder-shown {
-    font-family: "Courier Prime", Courier, monospace;
-  }
-  #github-logo {
-    background-image: url("/materials/images/github-icon-32px.png");
-  }
-  #ytb-logo {
-    background-image: url("/materials/images/ytb-icon-32px.png");
-  }
-  #fb-logo {
-    background-image: url("/materials/images/fb-icon-32px.png");
-  }
-  #github-logo:hover {
-    background-image: url("/materials/images/github-icon-32px_white.png");
-  }
-  #ytb-logo:hover {
-    background-image: url("/materials/images/ytb-icon-32px_white.png");
-  }
-  #fb-logo:hover {
-    background-image: url("/materials/images/fb-icon-32px_white.png");
   }
 }
