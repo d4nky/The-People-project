@@ -73,7 +73,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .mid {
@@ -87,7 +88,7 @@ html {
   }
 
   #input {
-    width: 13rem;
+    width: 15rem;
     height: 2rem;
     border: 2px solid black;
   }
@@ -232,7 +233,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .mid {
@@ -246,7 +248,7 @@ html {
   }
 
   #input {
-    width: 20rem;
+    width: 15rem;
     height: 2rem;
     border: 2px solid black;
   }
