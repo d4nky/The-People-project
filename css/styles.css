@@ -15,11 +15,60 @@ body{
   background: white;
 }
 
+.github-logo{
+  background: url('/materials/images/github-icon-32px.png');
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+.ytb-logo {
+  background: url('/materials/images/ytb-icon-32px.png');
+  height: 31px;
+  width: 31px;
+  display: inline-block;
+}
+.fb-logo{
+  background: url('/materials/images/fb-icon-32px.png');
+  height: 31px;
+  width: 31px;
+  display: inline-block;
+}
+.github-logo:hover {
+  background: url('/materials/images/github-icon-32px_white.png');
+  transition: all ease 0.1s;
+}
+
+.ytb-logo:hover {
+  background: url('/materials/images/ytb-icon-32px_white.png');
+  transition: all ease 0.1s;
+}
+
+.fb-logo:hover {
+  background: url('/materials/images/fb-icon-32px_white.png');
+  transition: all ease 0.1s;
+}
+
+.dropdown-menu a{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.dropdown-menu {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: -2500px;
+  transition: ease 0.2s;
+}
 
 @media (max-width: 574px){
-  .dropdown-menu {
-    display: none;
-  }
 
   .header-right {
     display: none;
@@ -108,6 +157,7 @@ body{
 }
 @media (max-width: 574px){
 
+  
   .section-container {
     display: flex;
     align-content: center;
@@ -191,9 +241,6 @@ body{
 
 
 @media (min-width: 574px) {
-  .dropdown-menu {
-    display: none;
-  }
 
   .header-right {
     display: none;
@@ -284,6 +331,7 @@ body{
   }
 } 
 @media (min-width: 574px) {
+  
   .section-container {
     display: flex;
     align-content: center;
@@ -304,9 +352,6 @@ body{
   }
 
 @media (min-width: 574px) {
-  .dropdown-menu {
-    display: none;
-  }
 
   .header-right {
     display: none;
@@ -401,9 +446,6 @@ body{
 
 
 @media (min-width: 768px) {
-  .dropdown-menu {
-    display: none;
-  }
 
   .header-right {
     display: none;
