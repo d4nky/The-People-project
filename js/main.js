@@ -1,5 +1,6 @@
 let button = document.querySelector(".menu-button");
 let menu = document.querySelector(".dropdown-menu");
+let content = document.querySelector(".section-container", ".footer-section");
 let menuStatus = false;
 
 function menuOpen(){
